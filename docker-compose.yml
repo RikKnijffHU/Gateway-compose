@@ -1,0 +1,10 @@
+version: '3'
+services:
+   bluetoothcentral:
+    container_name: bluetoothcentral
+    image: rikknijff/bluetoothcentral
+    network_mode: "host"
+    privileged: true
+    environment:
+    - KitchenName=Verdieping 4
+    - Amqpconnection=amqp://infosupport:1nfosupport@192.168.0.114
