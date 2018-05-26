@@ -2,7 +2,7 @@ version: '3'
 services:
    bluetoothcentral:
     container_name: bluetoothcentral
-    image: rikknijff/bluetoothcentral
+    image: rikknijff/iot
     network_mode: "host"
     privileged: true
     environment:
